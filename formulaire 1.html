@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Formulaire d'accompagnement des resaux sociaux</title>
+        <style>
+            body {
+                margin: 0;
+                 font-family: Arial;
+                 color:beige;
+                
+            }
+
+            body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+             height: 100%;
+             background-image: url("https://i.pinimg.com/736x/1e/c7/4e/1ec74e5b14f44d21daf1b46f8d5d2fc0.jpg");
+             background-size: Content;
+             background-position: center;
+             filter: blur(10px);     
+             z-index: -1;
+            }
+            h1{
+                text-align: center;
+            }
+            h3{
+                text-align:center ;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="mailto:kennykokodoko0@gmail.com" method="post" enctype="text/plain">
+        <h1>
+            Bonjour je suis Vido!
+        </h1>
+        <h3>
+            Pour que je puisse t’accompagner efficacement pendant les 2 semaines, merci de remplir ce formulaire.
+        Les réponses me permettront d’adapter l’accompagnement à ta réalité et à tes objectifs.
+        </h3>
+    </body>
+    <fieldset>
+        <legend>PRESENTATION</legend>
+        Nom et prenoms: <input type="text" name="Nom: "><br><br>
+        Pseudo resaux sociaux: <input type="text" name="Pseudo: "><br><br>
+        Nom de ton activite: <input type="text" name="Nom d'activite: "><br><br>
+        Domaine d'activite: <input type="text" name="Domaine d'activite: "><br><br>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Parlons des resaux sociaux</legend>
+        Tes resaux sociaux actives<br>
+        <input type="checkbox" name="je suis sur tiktok: " >Tiktok<br>
+        <input type="checkbox" name="je suis sur instagram: " >instagram<br>
+        <input type="checkbox" name=" je suis sur facebook: " >facebook<br><br>
+        Nombre actuel d'abonnes<br>
+        Tiktok: <input type="text" name="nombre d'abonnes sur tiktok"><br><br>
+        facebook: <input type="text" name="nombre d'abonnes sur facebook"><br><br>
+        instagram: <input type="text" name="nombre d'abonnes sur instagram"><br><br>
+        Publies-tu regulierement?<br>
+        <input type="checkbox" name="je publie regulieremnt: " >Oui regulierement<br>
+        <input type="checkbox" name="je publie rarement: " >Oui, mais rarement<br>
+        <input type="checkbox" name="je publie pas: " >Nom<br><br>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Approche de solution</legend>
+        Ta plus grande difficulté sur les réseaux sociaux<br>
+        <input type="checkbox" name="ma difficulte est de Trouver des idees de contenues " >Trouver des idees de contenu<br>
+        <input type="checkbox" name="ma difficulte est de parler face au camera " >Parler face au camera<br>
+        <input type="checkbox" name="ma difficulte est d'avoir des vues " >Avoir des vues<br>
+        <input type="checkbox" name="ma difficulte est de vendre grace aux resaux" >Vendre grace aux resaux<br>
+        <input type="checkbox" name="ma difficulte est d'etre regulier " >Etre regulier<br>
+        <input type="checkbox" name="ma difficulte est autre " >Autre<br><br>
+        Que veut tu ameliorer pendant ces deux semaines?<br>
+        <textarea name="ce que je veux ameliorer" ></textarea><br><br>
+        Ton objectif principal avec cet accompagnement<br>
+        <input type="checkbox" name="mon objectif est plus de visibilites " >Plus de visibilites<br>
+        <input type="checkbox" name="mon objectif est plus de "client >Plus de client<br>
+        <input type="checkbox" name="mon objectif est de mieux comprendre les resaux" >Mieux comprendre les réseaux<br>
+        <input type="checkbox" name="mon objectif est de creer du contenu qui convertit" >Créer du contenu qui convertit<br><br>
+        Es-tu prêt(e) à appliquer les conseils et à publier pendant l’accompagnement ?<br>
+        <input type="checkbox" name="je suis pret" >Oui<br>
+        <input type="checkbox" name="je ne suis pas prete "client >Non<br>
+        
+    </fieldset><br><br>
+    <input type="submit" value="Envoyer le formulaire">
+    </form>
+</html>
